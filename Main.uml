@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>world.ucode.Main</OriginalElement>
+  <nodes>
+    <node x="984.7022058823529" y="542.0">javafx.application.Application</node>
+    <node x="310.1911764705881" y="586.5">world.ucode.View</node>
+    <node x="0.0" y="148.0">world.ucode.ModelDatabase</node>
+    <node x="635.6286764705881" y="865.0">world.ucode.Main</node>
+    <node x="784.9264705882352" y="159.0">world.ucode.ModelTimers</node>
+    <node x="756.4264705882352" y="0.0">world.ucode.Variables</node>
+    <node x="111.19117647058818" y="328.0">world.ucode.Controller</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="world.ucode.Main" target="javafx.application.Application">
+      <point x="51.25" y="-38.0" />
+      <point x="768.8786764705881" y="835.0" />
+      <point x="1076.702205882353" y="835.0" />
+      <point x="-92.0" y="126.5" />
+    </edge>
+    <edge source="world.ucode.ModelTimers" target="world.ucode.Variables">
+      <point x="52.25" y="-49.0" />
+      <point x="61.75" y="49.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="676.5" y="470.5" />
+  <SelectedNodes>
+    <node>world.ucode.Main</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
